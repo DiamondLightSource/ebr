@@ -12,11 +12,12 @@ Import-Package: \
 
 Fragment-Host: org.jogamp.jogl.ebr
 
-Bundle-NativeCode: natives/windows-amd64/jogl_mobile.dll; \
- natives/windows-amd64/jogl_desktop.dll; \
- natives/windows-amd64/nativewindow_win32.dll; \
- natives/windows-amd64/newt.dll; \
- natives/windows-amd64/nativewindow_awt.dll; \
- natives/windows-amd64/gluegen-rt.dll; \
- osname=win32; processor=x86_64, \
+Bundle-NativeCode: \
+ natives/macosx-universal/libgluegen_rt.dylib; \
+ natives/macosx-universal/libjogl_desktop.dylib; \
+ natives/macosx-universal/libjogl_mobile.dylib; \
+ natives/macosx-universal/libnativewindow_awt.dylib; \
+ natives/macosx-universal/libnativewindow_macosx.dylib; \
+ natives/macosx-universal/libnewt_head.dylib; \
+ osname=macosx, \
  *

@@ -7,20 +7,23 @@
     <artifactId>jogl-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
+
   <artifactId>org.jogamp.jogl.ebr</artifactId>
-  <version>2.3.2-SNAPSHOT</version>
+  <version>${jogl.bundle.version}</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>JOGL and Gluegen</name>
+  
   <dependencies>
     <dependency>
       <groupId>org.jogamp.gluegen</groupId>
       <artifactId>gluegen-rt</artifactId>
-      <version>2.3.2</version>
+      <version>${jogl.jar.version}</version>
     </dependency>
+
     <dependency>
       <groupId>org.jogamp.jogl</groupId>
       <artifactId>jogl-all</artifactId>
-      <version>2.3.2</version>
+      <version>${jogl.jar.version}</version>
     </dependency>
   </dependencies>
 </project>

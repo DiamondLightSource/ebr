@@ -13,15 +13,18 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+     <jogl.jar.version>2.4.0rc6</jogl.jar.version>
+     <jogl.bundle.version>2.4.0</jogl.bundle.version>
+  </properties>
+
   <name>JOGL Recipes</name>
 
   <modules>
-    <module>org.jogamp.jogl.ebr_2.3.2</module>
-    <module>org.jogamp.jogl.natives-linux-amd64.ebr_2.3.2</module>
-    <module>org.jogamp.jogl.natives-linux-i586.ebr_2.3.2</module>
-    <module>org.jogamp.jogl.natives-macosx-universal.ebr_2.3.2</module>
-    <module>org.jogamp.jogl.natives-windows-amd64.ebr_2.3.2</module>
-    <module>org.jogamp.jogl.natives-windows-i586.ebr_2.3.2</module>
+    <module>org.jogamp.jogl.ebr_2.4.0</module>
+    <module>org.jogamp.jogl.natives-linux-amd64.ebr_2.4.0</module>
+    <module>org.jogamp.jogl.natives-macosx-universal.ebr_2.4.0</module>
+    <module>org.jogamp.jogl.natives-windows-amd64.ebr_2.4.0</module>
   </modules>
 
 </project>

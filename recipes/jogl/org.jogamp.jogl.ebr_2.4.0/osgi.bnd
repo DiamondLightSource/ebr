@@ -1,0 +1,25 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ !org.jdesktop.applet.util, \
+ com.jogamp.common.util.awt;resolution:=optional, \
+ com.jogamp.gluegen.*;resolution:=optional, \
+ com.jogamp.nativewindow.awt;resolution:=optional, \
+ com.jogamp.openal.*;resolution:=optional, \
+ com.jogamp.opengl.util.texture.spi.awt;resolution:=optional, \
+ com.sun.javafx.*;resolution:=optional, \
+ javafx.*;resolution:=optional, \
+ jdk.internal.module;resolution:=optional, \
+ org.apache.tools.ant*;resolution:=optional, \
+ org.eclipse.swt*;resolution:=optional, \
+ sun.misc;resolution:=optional, \
+ sun.awt;resolution:=optional, \
+ sun.java2d.opengl;resolution:=optional, \
+ *

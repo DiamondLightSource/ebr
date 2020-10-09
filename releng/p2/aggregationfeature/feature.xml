@@ -64,6 +64,12 @@
 
   <plugin id="org.zeroturnaround.exec.ebr"           version="1.9.0.qualifier"/>
   <plugin id="org.zeroturnaround.processkiller.ebr"  version="1.4.0.qualifier"/>
+  <includes id="org.eclipse.platform"           version="0.0.0"/>
+
+  <plugin id="org.jogamp.jogl.ebr"                          version="2.4.0.qualifier"/>
+  <plugin id="org.jogamp.jogl.natives-linux-amd64.ebr"      version="2.4.0.qualifier"/>
+  <plugin id="org.jogamp.jogl.natives-macosx-universal.ebr" version="2.4.0.qualifier"/>
+  <plugin id="org.jogamp.jogl.natives-windows-amd64.ebr"    version="2.4.0.qualifier"/>
 
   <plugin id="org.jzy3d.api.ebr"             version="1.0.2.qualifier"/>
   <plugin id="org.jzy3d.jdt.core.ebr"        version="1.0.2.qualifier"/>

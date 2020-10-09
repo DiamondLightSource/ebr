@@ -33,6 +33,12 @@
         </executions>
         <configuration>
           <labelSuffix> (source)</labelSuffix>
+          <excludes>
+            <plugin id="org.jogamp.jogl.ebr"/>
+            <plugin id="org.jogamp.jogl.natives-linux-amd64.ebr"/>
+            <plugin id="org.jogamp.jogl.natives-macosx-universal.ebr"/>
+            <plugin id="org.jogamp.jogl.natives-windows-amd64.ebr"/>
+          </excludes>
         </configuration>
       </plugin>
       <plugin>
